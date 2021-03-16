@@ -1,0 +1,4 @@
+M = rand(3);
+[F, err] = fopen('matrix3','w');
+fprintf(F,' %.4f %.4f %.4f\n %.4f %.4f %.4f\n %.4f %.4f %.4f\n',M');
+fclose(F);

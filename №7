@@ -1,0 +1,9 @@
+x = 0:.1:10;
+y = x.*sin(pi*x);
+y1=x;
+y2 = -x;
+plot(x,y,"Color",'b',"Linewidth",1.5);
+hold on
+plot(x,y1,"Color",'r',"Linewidth",1.5);
+hold on
+plot(x,y2,"Color",'r',"Linewidth",1.5);

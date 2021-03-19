@@ -1,0 +1,6 @@
+teta = 0:0.01:3*pi;
+rho = sin(teta)./teta;
+x = rho.*cos(teta);
+y = rho.*sin(teta);
+plot(x,y)
+grid on
